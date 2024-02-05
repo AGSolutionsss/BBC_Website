@@ -1,0 +1,5 @@
+@media(max-width:767px) {
+    .upper-contact-area {
+        display: none !important;
+    }
+}

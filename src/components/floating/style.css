@@ -1,0 +1,16 @@
+ul.smothscroll2 {
+    position: fixed;
+    bottom: 25px;
+    left:30px;
+    list-style: none;
+    z-index: 99;
+}
+ul.smothscroll2 img {
+    width: 150px;
+}
+
+@media(max-width:767px){
+    ul.smothscroll2 img {
+        width: 90px;
+    }
+}

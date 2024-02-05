@@ -1,0 +1,5 @@
+@media(max-width:767px) {
+    .gallery {
+        padding-bottom: 0px !important;
+    }
+}

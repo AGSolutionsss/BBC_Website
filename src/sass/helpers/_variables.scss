@@ -1,0 +1,34 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+// fonts
+$base-font-size: 15;
+$base-font: 'Inter', sans-serif;
+$heading-font: 'Inter', sans-serif;
+
+
+// color
+$dark-gray: #202020;
+$body-color: #888888;
+$white: #fff;
+$light: #888888;
+$black: #000;
+$small-black: #333;
+$cyan: #848892;
+
+$theme-primary-color: #59C378;
+$theme-primary-color-s2: #dfca08;
+$theme-primary-color-s3: #DD584F;
+$bg-color:#fff;
+$bg-color2:#fffbfb;
+$bg-color3:#f8f8f8;
+$body-bg-color: #fff;
+$section-bg-color: #f3f8ff;
+$text-color: #585858;
+$text-light-color: #7b7b7b;
+$heading-color:$dark-gray;
+$border-color: #ebebeb;
+$border-color-s2: #e4ebf2;

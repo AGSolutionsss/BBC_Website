@@ -1,0 +1,13 @@
+.card-button-cursor{
+    cursor: pointer;
+}
+
+.card-button:hover{
+    background-image: linear-gradient(75deg, rgba(26, 44, 121, 0.75) 10%, rgba(232, 5, 102, 0.80)) !important;
+    >ul >li{
+        color: white !important;
+    }
+    .card-position-desc>span{
+        color: white !important;
+    }
+}

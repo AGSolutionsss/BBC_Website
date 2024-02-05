@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    .mob_views {
+        background: transparent !important;
+    }
+    .wpo-project-item {
+        text-align: center;
+    }
+}
+
+
+.titlenames {
+    font-size: 13px !important;
+    margin-bottom: 0px !important;
+}
+
+.categorys {
+    font-size: 14px !important;
+}
+
+.mob_views {
+    background-color: transparent !important;
+    width: 87%;
+    border-radius: 10px;
+    box-shadow: rgb(129, 134, 129) 2px 3px 6px;
+}
+
+.wpo-project-item {
+    text-align: center !important;
+}

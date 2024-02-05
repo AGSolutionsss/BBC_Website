@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+    .mob_view {
+        background-color: transparent !important;
+    }
+    .wpo-blog-item {
+        text-align: center;
+    }
+}
+
+.titlename {
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+    height: 40px;
+    line-height: 1 !important;
+}
+
+.title_catg {
+    color: #a41460 !important;
+    font-size: 13px !important;
+}
+
+.category {
+    font-size: 14px !important;
+}
+
+.mob_view {
+    background-color: transparent !important;
+    width: 87%;
+    border-radius: 10px;
+    box-shadow: rgb(129, 134, 129) 2px 3px 6px;
+}
+
+.wpo-blog-item {
+    text-align: center !important;
+}

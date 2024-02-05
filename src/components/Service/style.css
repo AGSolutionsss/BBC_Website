@@ -1,0 +1,280 @@
+.service-details-section h4 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.profileimg {
+    width: 20%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: rgb(129, 134, 129) 2px 3px 6px;
+    position: absolute;
+    right: 45px;
+}
+
+.profilename {
+    font-size: 14px;
+    padding-top: 10px;
+    position: absolute;
+    top: 190px;
+    right: 81px;
+}
+
+.model_companyname {
+    font-size: 16px;
+    text-align: initial;
+}
+
+.model_address {
+    font-size: 12px;
+}
+
+.model_category {
+    text-align: initial;
+    font-size: 18px !important;
+    margin-bottom: 15px !important;
+    margin-top: 25px !important;
+}
+
+.model_catg_list {
+    font-size: 15px !important;
+    padding-top: 0px !important;
+    font-weight: 600;
+    padding-bottom: 0px !important;
+}
+
+.model_catg_lists {
+    font-size: 13px !important;
+    padding-left: 40px;
+}
+
+.list-widget {
+    margin-bottom: 10px !important;
+}
+
+.model_services {
+    text-align: initial;
+    font-size: 18px !important;
+    margin-bottom: 5px !important;
+}
+
+.model_services_list {
+    font-size: 13px !important;
+    padding-top: 0px !important;
+}
+
+.model_services_list::before {
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    font-size: 10px !important;
+}
+
+.model_contact {
+    text-align: initial;
+    font-size: 18px !important;
+    margin-bottom: 5px !important;
+}
+
+.contact_tag1 {
+    font-size: 13px !important;
+    position: absolute;
+    top: 0;
+    left: 94px;
+}
+
+.contact_tag2 {
+    font-size: 13px !important;
+    position: absolute;
+    top: 0;
+    right: 380px;
+}
+
+.wpo-service-area {
+    height: 100px;
+}
+
+.cards1 {
+    position: absolute;
+    left: 25%;
+    top: 22%;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    animation: bounceTop 3s linear infinite;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    box-shadow: 0px 2px 10px rgba(14, 29, 44, 0.15);
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.cards2 {
+    position: absolute;
+    left: 44%;
+    top: 22%;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    animation: bounceTop 3s linear infinite;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    box-shadow: 0px 2px 10px rgba(14, 29, 44, 0.15);
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.cards3 {
+    position: absolute;
+    right: 25%;
+    top: 22%;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    animation: bounceTop 3s linear infinite;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bounceTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    box-shadow: 0px 2px 10px rgba(14, 29, 44, 0.15);
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.contact_tag3 {
+    font-size: 13px !important;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+.micon::before {
+    font-size: 25px !important;
+}
+
+.fa-phone .fa-envelope .fa-whatsapp {
+    padding: 12px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .service-details-section h4 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .contact_tag1 {
+        display: none;
+    }
+    .contact_tag2 {
+        display: none;
+    }
+    .contact_tag3 {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+    .wpo-service-item {
+        text-align: center;
+    }
+    .cards1 {
+        left: 10% !important;
+    }
+    .cards2 {
+        left: 40% !important;
+    }
+    .cards3 {
+        right: 5% !important;
+    }
+    .profileimg{
+        display: none;
+    }
+    .profilename{
+        display: none;
+    }
+    .model-desktop{
+        display: none !important;
+    }
+}
+
+.wpo-service-single-area .wpo-service-single-wrap .list-widget ul li::before{
+    color: rgb(164, 20, 96) !important;
+}
+.model-desktop{
+    display: flex;
+}

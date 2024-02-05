@@ -1,0 +1,16 @@
+.img-mobile{
+    width: 75% !important;
+}
+
+.product_li ul li::before{
+    content: "\f10d";
+    font-family: "Flaticon";
+    color: #59C378;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .img-mobile{
+        width: 45% !important;
+    }
+}
