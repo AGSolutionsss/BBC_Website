@@ -58,6 +58,7 @@ const Service = (props) => {
     return (
         <>
         <Navbar1 hclass={'wpo-header-style-1'} topbarNone={'topbar-none'}/>
+        <Nav_Bar/>
         <div className="wpo-work-area-s2 section-padding" style={{paddingBottom:'380px'}}>
             
             <div className="container">

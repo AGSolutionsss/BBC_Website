@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar1 from '../../components/Navbar/Navbar1';
+import Nav_Bar from '../Nav_Bar'
+import Load from '../Load'
 import Footer from '../footer/Footer';
 import Scrollbar from '../scrollbar/scrollbar';
 import email from '../../images/email_not_sent.png';
@@ -14,7 +15,9 @@ const Failuree = (props) =>{
     
     return(
         <>
-            <Navbar1 hclass={'wpo-header-style-1'} topbarNone={'topbar-none'}/>
+            <Nav_Bar/>
+            <Load/>
+            
             <section className={`formregister wpo-contact-area section-padding ${props.contactclass}`} id="register" style={styles.top}>
             <div className="wpo-wpo-contact-form-map">
                 <div className="container">

@@ -2,5 +2,40 @@
     color: black;
     >span {
         color: red;
+        
     }
+}
+.wpo-wpo-contact-form-map form input{
+    color: black !important;
+    height: 20px !important;
+    margin-left: 30px;
+
+    // background-color: rgb(170, 182, 230);
+}
+
+.wpo-wpo-contact-form-map .wpo-contact-form h2{
+    margin: 0px !important;
+    text-align: center !important;
+}
+
+.formregister {
+    position: relative;
+}
+
+.top-half::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 50%;
+    // background: linear-gradient(to bottom, #ffffff, #ffffff); /* Adjust the blue color value as needed */
+}
+
+.bbc{
+    color: white;
+}
+
+.wpo-wpo-contact-form{
+    background-color: black;
 }

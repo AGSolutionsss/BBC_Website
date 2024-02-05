@@ -9,7 +9,8 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="separator"></div>
-                        <p className="copyright">Copyright &copy; 2023 AG Solutions. All rights reserved.</p>
+                        <p className="copyright">Copyright &copy; 2023 AG Solutions. All rights reserved.
+                        <span style={{float:'right'}}> Visitors No : {localStorage.getItem("visitorCount")}</span></p>
                     </div>
                 </div>
             </div>

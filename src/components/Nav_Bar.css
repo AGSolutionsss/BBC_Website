@@ -1,0 +1,109 @@
+/* Nav_Bar.css */
+
+body {
+    /* Remove default body margin */ 
+    font-family: Arial, sans-serif; /* Choose a suitable font */
+  
+}
+
+.NAV {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000 !important;
+    background-color: #ffffff5e; /* Comment out the initial background color */
+    backdrop-filter: blur(900px) opacity(20%); /* Adjust the blur and initial opacity for transparency */
+    /* box-shadow: 0px 0px 0px rgba(255, 255, 255);  */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    z-index: 1000;
+    font-weight: 900;
+}
+
+.NAV.white-bg {
+    background-color: #ffffff; /* White background on scroll */
+    backdrop-filter: none; /* Remove blur effect on scroll */
+    box-shadow: 0px 2px 2px rgba(255, 255, 255,0.3); 
+}
+
+
+
+
+.nav-item {
+    margin-right: 45px;
+    
+}
+
+.nav-item.nav-link {
+    text-decoration: none;
+    color: #000000; /* Text color for navigation links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.nav-item.nav-link:hover {
+    color: #ffcc00;
+}
+
+.nav-item.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Adjust border height as needed */
+    /* background-color: #ffcc00; */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.nav-item.nav-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    z-index: 99999;
+  
+    /* gap: 30px; */
+}
+div.NAV::before{
+    opacity: 1;
+    /* background-color: #ffffff; */
+}
+div.NAV::after{
+    background-color: whitesmoke;
+    
+}
+a.nav-link{
+    color: #000000;
+    text-shadow: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: -10px;
+    /* margin-right: 20px;
+     */
+
+    }
+/* Add this to your existing CSS */
+
+@media (max-width: 993px) {
+    .NAV.mobile-mode {
+        /* Add styles for mobile mode */
+        /* For example, you can hide the regular nav and show the mobile menu */
+    }
+
+    .NAV.mobile-mode .nav {
+        /* Add styles for mobile mode navigation */
+    }
+}

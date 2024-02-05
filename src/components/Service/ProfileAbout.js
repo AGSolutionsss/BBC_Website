@@ -8,7 +8,7 @@ const ProfileAbout = ({image,name,about,category,experience,product}) => {
     let string = experience;
     let result = string.replace(/[^0-9]/g, "");
     return(
-        <div className="wpo-about-area section-padding" id='about'>
+        <div className="wpo-about-area section-padding" id='top'>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-3 col-md-12 col-sm-12">

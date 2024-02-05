@@ -11,7 +11,7 @@ const Mentor = (props) => {
                 <div className="row justify-content-center">
                     <div className="col-lg-5">
                         <div className="wpo-section-title">
-                            <h2>Our Directory</h2>
+                            <h2>Our Directors</h2>
                         </div>
                     </div>
                 </div>

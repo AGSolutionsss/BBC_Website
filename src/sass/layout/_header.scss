@@ -6,20 +6,20 @@
 /*-- 2.1 topbar --*/
 
 .topbar {
-    background: none;
+    background: #ffffff;
 }
 
 @media (max-width: 991px) {
     .topbar {
         text-align: center;
-        padding: 0;
+        padding: 20px 0;
     }
 }
 
 @media (max-width: 767px) {
     .header-style-1 {
         text-align: center;
-        padding: 20px 0;
+        padding: 40px 0;
     }
 }
 
@@ -275,6 +275,7 @@
 @media (max-width: 991px) {
     .wpo-site-header {
         /* class for show hide navigation */
+        display: block;
     }
     .wpo-site-header .container {
         width: 100%;
@@ -360,7 +361,7 @@
 
 @media (max-width: 991px) {
     .wpo-site-header .navbar-collapse.collapse {
-        display: none;
+        display: block;
     }
     .wpo-site-header .navbar-collapse.collapse.in {
         display: block;

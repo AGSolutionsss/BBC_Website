@@ -90,7 +90,7 @@ const Member = () => {
                         {user.map((users, bl) => (
                             <div className="wpo-blog-item" key={bl}>
                                 <div className="wpo-blog-img">
-                                    <img className='mob_view' src={(users.image  === null || users.image === '' ? 'http://businessboostersclub.online/public/images/user_images/no_images.png' :baseURLurimg+users.image)} alt="Member" />
+                                    <img className='mob_view' src={(users.image  === null || users.image === '' ? 'http://businessboosters.club/public/images/user_images/no_images.png' :baseURLurimg+users.image)} alt="Member" />
                                 </div>
                                 <div className="wpo-blog-text">
                                     <h6 className='title_catg'>{users.category}</h6>
@@ -102,7 +102,7 @@ const Member = () => {
                         <div className='col-md-12' style={{textAlign:'center'}}>
                             <Button
                                 className="details theme-btn"
-                                style={{width:'200px',backgroundColor:'#A41460',borderRadius:'50px',fontWeight:'600',color:'white'}}
+                                style={{width:'200px',backgroundColor:'#A41460',borderRadius:'50px',fontWeight:'600',color:'white',padding:'13px'}}
                                 onClick={() => handleClickOpen()}>
                                     Our Services
                             </Button>

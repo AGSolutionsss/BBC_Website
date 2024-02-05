@@ -1,5 +1,5 @@
-export const baseURL = 'http://businessboostersclub.online/public/api';
-export const baseURLimg = 'http://businessboostersclub.online/public/images/user_images/';
-export const baseURLgalimg = 'http://businessboostersclub.online/public/images/gallery/';
-export const baseURLurimg = 'http://businessboostersclub.online/public/images/user_images/';
-export const baseURLprimg = 'http://businessboostersclub.online/public/images/product_images/';
+export const baseURL = 'http://businessboosters.club/public/api';
+export const baseURLimg = 'http://businessboosters.club/public/images/user_images/';
+export const baseURLgalimg = 'http://businessboosters.club/public/images/gallery/';
+export const baseURLurimg = 'http://businessboosters.club/public/images/user_images/';
+export const baseURLprimg = 'http://businessboosters.club/public/images/product_images/';

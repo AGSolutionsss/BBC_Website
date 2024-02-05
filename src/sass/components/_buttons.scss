@@ -1,12 +1,14 @@
+
 .theme-btn {
-	background: $theme-primary-color;
+	background: $theme-primary-color !important;
 	color: $white;
 	display: inline-block;
 	font-weight: 600;
-	padding: 15px 35px;
+	padding: 7px 20px;
 	padding-right: 65px;
 	border: 0;
 	border-radius: 40px;
+	color: white !important;
 	text-transform: capitalize;
 	-webkit-backface-visibility: hidden;
 	z-index: 1;
@@ -42,7 +44,7 @@
 	&:hover,
 	&:focus,
 	&:active {
-		background: darken($theme-primary-color, 5%);
+		background: darken($theme-primary-color, 5%) !important;
 		color: $white;
 	}
 

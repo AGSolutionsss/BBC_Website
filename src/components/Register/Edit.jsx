@@ -123,7 +123,7 @@ const Edit = (props) =>{
         setIsButtonDisabled(true)
         console.warn(file.name);
         axios({
-            url: "http://businessboostersclub.online/public/api/updateUser",
+            url: "http://businessboosters.club/public/api/updateUser",
             method: "PUT",
             params : {
                 
@@ -260,7 +260,7 @@ const Edit = (props) =>{
                                                 </div>
                                                 <div className="col col-lg-1 col-12">
                                                     <div className="form-field">
-                                                        <img src={(baseURLurimg+forms.image.length  == 0 ? 'http://businessboostersclub.online/public/images/user_images/no_images.png' : baseURLurimg+forms.image)}
+                                                        <img src={(baseURLurimg+forms.image.length  == 0 ? 'http://businessboosters.club/public/images/user_images/no_images.png' : baseURLurimg+forms.image)}
                                                         alt={forms.name}/>
                                                     </div>
                                                 </div>

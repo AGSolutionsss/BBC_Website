@@ -1,3 +1,12 @@
 p {
   color: red;
 }/*# sourceMappingURL=style.css.map */
+
+button.Butn-Hero2-page{
+  background: rgb(49, 164, 20);
+  border-radius: 40px;
+  /* width: 100%; */
+  /* height: 100%; */
+  text-decoration: none;
+   color: rgb(255, 255, 255); 
+  padding: 10px;}

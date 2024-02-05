@@ -1,9 +1,10 @@
 import React from 'react';
-import Navbar1 from '../../components/Navbar/Navbar1';
 import Footer from '../footer/Footer';
 import Scrollbar from '../scrollbar/scrollbar';
 import email from '../../images/email.png';
 import { Link } from 'react-router-dom';
+import Nav_Bar from '../Nav_Bar';
+import Load from '../Load';
 
 const Thankyoue = (props) =>{
     const styles = {
@@ -14,10 +15,11 @@ const Thankyoue = (props) =>{
     
     return(
         <>
-            <Navbar1 hclass={'wpo-header-style-1'} topbarNone={'topbar-none'}/>
+            <Nav_Bar/>
+            <Load/>
             <section className={`formregister wpo-contact-area section-padding ${props.contactclass}`} id="register" style={styles.top}>
             <div className="wpo-wpo-contact-form-map">
-                <div className="container">
+                <div className="container" id="top">
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                         <div className="wpo-section-title" style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>

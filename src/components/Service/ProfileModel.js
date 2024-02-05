@@ -7,6 +7,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import './style.css'
+import Scrollbar from '../scrollbar/scrollbar';
 
 const ProfileModel = ({ maxWidth, open, onClose, id}) => {
 
@@ -64,6 +65,7 @@ const ProfileModel = ({ maxWidth, open, onClose, id}) => {
                 {useres.name}
                 </DialogTitle>
                 <Grid className="modalBody modal-body">
+
                     <div className="wpo-service-single-area">
                         <div className="container">
                             <div className="row">
@@ -76,10 +78,12 @@ const ProfileModel = ({ maxWidth, open, onClose, id}) => {
                                                     <p className='model_address'>{useres.address}</p>
                                                 </div>
                                                 <div className='col-md-4' style={{textAlign:'center'}}>
-                                                    <img className="profileimg" src={(useres.image  === null || useres.image === '' ? 'http://businessboostersclub.online/public/images/user_images/no_images.png' : baseURLurimg+useres.image)} alt="" />
+                                                    <img className="profileimg" src={(useres.image  === null || useres.image === '' ? 'http://businessboosters.club/public/images/user_images/no_images.png' : baseURLurimg+useres.image)} alt="" />
+                                                    
                                                 </div>
                                             </div>
                                             <div className='row'>
+            <Scrollbar/>
                                                 <div className="wpo-service-single-item list-widget">
                                                     <div className="wpo-service-single-title">
                                                         <h3 className='model_category'>Occupation</h3>
@@ -114,16 +118,16 @@ const ProfileModel = ({ maxWidth, open, onClose, id}) => {
                                         <div className="wpo-service-single-item list-widget"></div>
                                         <div className="wpo-service-single-item">
                                             <div className="wpo-service-single-title">
-                                                <h3 className='model_contact'>Contatc Us</h3>
+                                                <h3 className='model_contact'>Contact Us</h3>
                                             </div>
                                             
                                             <div className="wpo-service-area">
                                                 <div className="row  mt-4">
-                                                    <div className="col-lg-4 col-md-12 col-4" style={{display:'flex',flexDirection:'column'}}>
-                                                        <div className="info-item" style={{padding:'5px 20px'}}>
-                                                            <div className="info-wrap" style={{display:'flex',alignItems:"center"}}>
+                                                    <div className="col-lg-4 col-md-12 col-4" style={{display:'flex',flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
+                                                        <div className="info-item" style={{padding:'5px 20px',width:'100%'}}>
+                                                            <div className="info-wrap" style={{display:'flex',flexDirection:'column',justifyContent:"center",alignItems:"center",padding:"3px"}}>
                                                             <div className="info-icon" style={{boxShadow:'none'}}>
-                                                                    <a style={{color: '#888888'}} href={"tel:"+useres.mobile}><i className="fi flaticon-phone-call"></i></a>
+                                                                    <a style={{color: '#888888'}} href={"tel:"+useres.mobile}><i className="fa fa-phone callicon" style={{color:'#dfca08'}}></i></a>
                                                                 </div>
                                                                 <div className="info-text model-desktop" style={{paddingLeft:'20px'}}>
                                                                     <span style={{fontSize:'15px'}}><a style={{color: '#888888'}} href={"tel:"+useres.mobile}>{useres.mobile}</a></span>
@@ -132,10 +136,10 @@ const ProfileModel = ({ maxWidth, open, onClose, id}) => {
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-4 col-md-12 col-4" style={{display:'flex',flexDirection:'column'}}>
-                                                        <div className="info-item" style={{padding:'5px 20px'}}>
-                                                            <div className="info-wrap" style={{display:'flex',alignItems:"center"}}>
+                                                        <div className="info-item" style={{padding:'5px 20px',width:'100%'}}>
+                                                            <div className="info-wrap" style={{display:'flex',flexDirection:'column',justifyContent:"center",alignItems:"center",padding:'3px'}}>
                                                                 <div className="info-icon" style={{boxShadow:'none'}}>
-                                                                    <a style={{color: '#888888'}} href={"mailto:"+useres.email}><i className="fi flaticon-mail"></i></a>
+                                                                    <a style={{color: '#888888'}} href={"mailto:"+useres.email}><i className="fa fa-envelope mailicon" style={{color:'#dfca08'}}></i></a>
                                                                 </div>
                                                                 <div className="info-text model-desktop" style={{paddingLeft:'20px'}}>
                                                                     <span style={{fontSize:'15px'}}><a style={{color: '#888888'}} href={"mailto:"+useres.email}>{useres.email}</a></span>
@@ -144,12 +148,12 @@ const ProfileModel = ({ maxWidth, open, onClose, id}) => {
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-4 col-md-12 col-4" style={{display:'flex',flexDirection:'column'}}>
-                                                        <div className="info-item" style={{padding:'5px 20px'}}>
-                                                            <div className="info-wrap" style={{display:'flex',alignItems:"center"}}>
+                                                        <div className="info-item" style={{padding:'5px 20px',width:'100%'}}>
+                                                            <div className="info-wrap" style={{display:'flex',flexDirection:'column',justifyContent:"center",alignItems:"center",padding:'3px'}}>
                                                                 <div className="info-icon" style={{boxShadow:'none'}}>
-                                                                    <a style={{color: '#888888'}} href={"https://wa.me/+91"+useres.mobile}><i className="fi flaticon-phone-call"></i></a>
+                                                                    <a style={{color: '#888888'}} href={"https://wa.me/+91"+useres.mobile}><i className="fa fa-whatsapp whatsappicon" style={{color:'#dfca08'}}></i></a>
                                                                 </div>
-                                                                <div className="info-text model-desktop" style={{paddingLeft:'20px'}}>
+                                                                <div className="info-text model-desktop" style={{paddingLeft:'40px'}}>
                                                                     <span style={{fontSize:'15px'}}><a style={{color: '#888888'}} href={"https://wa.me/+91"+useres.mobile}>{useres.mobile}</a></span>
                                                                 </div>
                                                             </div>

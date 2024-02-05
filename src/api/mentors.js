@@ -1,6 +1,6 @@
-import mentor1 from "../images/mentors/bhupendra.png";
-import mentor2 from "../images/mentors/Narender.png";
-import mentor3 from "../images/mentors/umesh.png";
+import mentor1 from "../images/mentors/4.png";
+import mentor2 from "../images/mentors/5.png";
+import mentor3 from "../images/mentors/6.png";
 
 const mentors = [{
         id: '1',

@@ -11,14 +11,16 @@ import icon4 from '../../images/comingsoon.jpg'
 import about from '../../images/about_us.jpg'
 import Mentor from '../../components/Mentor/Mentor';
 import Members from '../../components/Members/Members';
+import Nav_Bar from '../Nav_Bar';
 
 const About = (props) => {
     return (
         <>
+        <Nav_Bar/>
         <Navbar1 hclass={'wpo-header-style-1'} topbarNone={'topbar-none'}/>
-        <div className={`wpo-about-area-s2 section-padding ${props.aClass}`} id='about' style={{paddingTop:'80px 0'}}>
+        <div className={`wpo-about-area-s2 section-padding ${props.aClass}`} id='about' style={{paddingTop:'80px 0'} }>
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center" id='top'>
                     <div className="col-lg-5 col-md-12 col-sm-12">
                         <div className="wpo-about-img">
                             <img src={about} alt="" />

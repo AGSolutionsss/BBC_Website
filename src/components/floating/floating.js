@@ -1,3 +1,6 @@
+// ------------------------- Image Event has been initialized -------------------------
+// Completely correct 
+
 import React from 'react';
 import gif from "../../images/event.gif";
 import './style.css'

@@ -68,7 +68,7 @@ const EventRegister = (props) =>{
             
         
         axios({
-            url: "https://businessboostersclub.online/public/api/createEventEntry",
+            url: "https://businessboosters.club/public/api/createEventEntry",
             method: "POST",
             params : {
                 

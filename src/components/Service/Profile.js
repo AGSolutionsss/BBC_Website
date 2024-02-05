@@ -7,12 +7,6 @@ import ProfileProduct from './ProfileProduct';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import ProfileContactArea from './ProfileContactArea';
 
-import icon1 from '../../images/icon/photoshop.svg'
-import icon2 from '../../images/icon/illustrator.svg'
-import icon3 from '../../images/icon/diamond.svg'
-import shape1 from '../../images/slider/line-1.png'
-import shape2 from '../../images/slider/line-2.png'
-
 const Profile = (props) => {
     var url = new URL(window.location.href);
     var string = url + '';
@@ -41,6 +35,7 @@ const Profile = (props) => {
                     <ProfileProduct productimages={productimages}/>
                     <ProfileContactArea mobile={users.mobile} email={users.email} address={users.address}/>
                     <Scrollbar/>
+                    
                 </>
             ))}
                 

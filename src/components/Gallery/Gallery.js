@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { baseURL,baseURLgalimg } from '../../api/api';
 import axios from "axios";
 import Modal from "./Modal";
-import Navbar1 from '../../components/Navbar/Navbar1';
+import Navbar1 from '../../components/Navbar/Navbar1';  
+// Navbar 1 has been implimented. ---->  
 import Footer from '../footer/Footer';
 import Scrollbar from '../scrollbar/scrollbar';
 import './gallery.css';
+import Nav_Bar from '../Nav_Bar';
 
 const Gallery = (prop) => {
 
@@ -68,6 +70,7 @@ const Gallery = (prop) => {
 
     return (
         <>
+        <Nav_Bar/>
         <Navbar1 hclass={'wpo-header-style-1'} topbarNone={'topbar-none'}/>
         <div className="container-fluid">
         <section id="gallery" className="wpo-pricing-section section-padding gallery" style={{paddingBottom:'320px'}}>
@@ -105,7 +108,7 @@ const Gallery = (prop) => {
         </section>
         </div>
         <Footer/>
-        <Scrollbar/>
+        {/* <Scrollbar/> */}
         </>
     )
 };

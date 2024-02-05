@@ -1,19 +1,18 @@
 import React from 'react'
-import shape1 from '../../images/about/shape1.png'
-import Navbar1 from '../../components/Navbar/Navbar1';
-import shape2 from '../../images/about/shape2.png'
-import Footer from '../footer/Footer';
-import Scrollbar from '../scrollbar/scrollbar';
+import Footer1 from '../footer/Footer1';
 import ContactArea from '../../components/ContactArea';
+import Nav_Bar from '../Nav_Bar';
+import Floating from '../floating/floating';
 
 const Contact = (props) => {
 
     return (
         <>
-        <Navbar1 hclass={'wpo-header-style-1'} topbarNone={'topbar-none'}/>
+        <Nav_Bar/>
         <ContactArea/>
-        <Footer/>
-        <Scrollbar/>
+        <Footer1/>
+        <Floating/>
+        
         </>
     )
 }

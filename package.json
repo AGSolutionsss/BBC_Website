@@ -1,6 +1,6 @@
 {
     "name": "business-boosters-club",
-    "homepage": "http://businessboostersclub.online/",
+    "homepage": "https://businessboosters.club/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -40,13 +40,16 @@
         "sass": "^1.50.1",
         "simple-react-validator": "^1.6.1",
         "slick-carousel": "^1.8.1",
+        "source-map-explorer": "^2.5.3",
         "web-vitals": "^2.1.4"
     },
     "scripts": {
+        
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "analyze": "node ./analyze.js"
     },
     "eslintConfig": {
         "extends": [

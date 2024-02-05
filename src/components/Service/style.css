@@ -14,12 +14,25 @@
     right: 45px;
 }
 
+.callicon::before{
+    font-size: 20px !important;
+}
+
+.mailicon::before{
+    font-size: 20px !important;
+}
+
+.whatsappicon::before{
+    font-size: 20px !important;
+}
+
 .profilename {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 10px;
     position: absolute;
-    top: 190px;
-    right: 81px;
+    font-weight: 500;
+    top: 335px;
+    right: 120px;
 }
 
 .model_companyname {
