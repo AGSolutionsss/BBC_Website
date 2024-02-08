@@ -18,7 +18,9 @@ import Thankyouc from '../../components/result/thankyouc';
 import Failurec from '../../components/result/failurec';
 import Thankyoue from '../../components/result/thankyoue';
 import Failuree from '../../components/result/failuree';
-
+import DeleteAccount from '../../components/deleteaccount/DeleteAccount';
+import Thankyouad from '../../components/result/thankyouad';
+import Failuread from '../../components/result/failuread';
 import React, { lazy } from 'react';
 
 const NoPage=lazy(()=>('./pages/NoPage'));
@@ -57,7 +59,9 @@ const AllRoute = () => {
             <Route path="/failurec" element={<Failurec />} />
             <Route path="/thankyoue" element={<Thankyoue />} />
             <Route path="/failuree" element={<Failuree />} />
-
+            <Route path="/deleteaccount" element={<DeleteAccount />} />
+            <Route path="/thankyouad" element={<Thankyouad />} />
+            <Route path="/failuread" element={<Failuread />} />
           </Routes>
         </BrowserRouter>
       
